@@ -10,30 +10,6 @@ A **production-ready local AI agent** that bridges the gap between Large Languag
 
 Unlike chatbot demos that hallucinate file operations, this agent executes **real** filesystem operations while keeping your data 100% local and private.
 
-## 🏗️ Architecture
-
-┌─────────────────────────────────────────────────────────────┐
-│ User Interface (CLI) │
-└─────────────────────────────────────────────────────────────┘
-│
-▼
-┌─────────────────────────────────────────────────────────────┐
-│ Command Router │
-│ ┌──────────────┴──────────────┐ │
-│ │ │ │
-│ ▼ ▼ │
-│ [MCP Tools] [Ollama LLM] │
-│ - list_directory - tinyllama (637MB) │
-│ - read_file - 100% local inference │
-│ - write_file (planned) - No API costs │
-│ │ │ │
-│ └──────────────┬──────────────┘ │
-│ ▼ │
-│ [Your Filesystem] │
-└─────────────────────────────────────────────────────────────┘
-text
-
-
 ## ✨ Features
 
 | Feature | Status | Description |
