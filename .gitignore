@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local configuration (contains your paths)
+.config/
+.local/
+
+# Ollama models (too large, installed separately)
+.ollama/
+models/
+
+# Logs
+*.log
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Personal files (keep your Desktop contents private)
+Desktop/
+Documents/
+Downloads/
+
+# Test files
+test_*.py
+*_test.py
