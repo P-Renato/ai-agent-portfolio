@@ -189,7 +189,7 @@ MIT - Use freely for learning and portfolios.
 
 📧 Contact
 
-Built by [Your Name] - DevOps Engineer in training
+Built by Renato de Bakker - DevOps Engineer in training
 
     GitLab: @your-username
 
